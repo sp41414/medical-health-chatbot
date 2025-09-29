@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Medical Health Chatbot</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/genai": "https://cdn.jsdelivr.net/npm/@google/genai@1.11.0/dist/index.mjs"
+        }
+      }
+    </script>
+    <script src="script.js" type="module" defer></script>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p>Medical Health Chatbot</p>
+      </div>
+      <div class="chatbox" id="chatbox"></div>
+      <div class="chatinput">
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-button">&UpArrow;</button>
+      </div>
+    </div>
+  </body>
+</html>
